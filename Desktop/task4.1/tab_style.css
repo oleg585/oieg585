@@ -1,0 +1,124 @@
+﻿.green{
+	padding: 10px;
+	margin: 10px;
+	width: 670px;
+	background-color: Green;
+}
+
+.red1{
+    background-color: Red;
+    width: 650px;
+    height: 100px;
+    margin: 0px auto 10px;
+}
+.red2{
+	background-color: Red;
+	margin: auto;
+	width: 650px;
+	height: 50px;
+}
+.red3{
+	background-color: Red;
+	width: 650px;
+	height: 400px;
+	margin: 10px auto;
+}
+.red4{
+	background-color: Red;
+	width: 650px;
+	height: 100px;
+	margin: auto 10px;
+}
+.blue1{
+	background-color: Blue;
+	width: 170px;
+	height: 90px;
+	float: left;
+	margin:5px;
+}
+.blue2{
+	background-color: Blue;
+	width: 300px; 
+	height:90px;
+	float: left;
+	margin:5px;
+}
+.blue3{
+	background-color: Blue;
+	width:150px; 
+	height:90px;
+	float: left; 
+	margin:5px;
+}
+.blue4{
+	background-color: Blue;
+	width: 152px;
+	height:40px;
+	float: left;
+	margin:5px; 
+}
+.blue5{
+	background-color: Blue;
+	width: 200px;
+	height:390px;
+	float: left;
+	margin:5px;
+}
+.blue6{
+	background-color: Blue;
+	width: 430px;
+	height: 390px;
+	float: left;
+	margin:5px;
+}
+.blue8{
+	background-color: Blue;
+	width: 300px;
+	height: 90px;
+	float: left;
+	margin:5px;
+}
+.blue9{
+	background-color: Blue;
+	width: 150px;
+	height: 90px;
+	float: left;
+	margin:5px;
+}
+.yellow1{
+    background-color: Yellow;
+    width: 140px;
+    height: 35px;
+    margin: 6px 5px;
+}
+.yellow2{
+    background-color: Yellow;
+    width: 140px;
+    height: 35px;
+    clear: both;
+    margin: 6px 5px;
+}
+.yellow3{
+    background-color: Yellow;
+    height: 330px;
+    margin: 7px;
+}
+.yellow4{
+    background-color: Yellow;
+    clear: both;
+    height: 40px;
+    margin: 7px;
+}
+.yellow5{
+    background-color: Yellow;
+    width: 158px;
+    height: 35px;
+    margin: 5px;
+}
+.yellow6{
+    background-color: Yellow;
+    width: 158px;
+    height: 35px;
+    clear: both;
+    margin: 5px;
+}
