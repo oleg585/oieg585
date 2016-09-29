@@ -2,21 +2,31 @@
 <html>
 <head>
 	<title>Формула</title>
+	<style type="text/css">
+		p {color: red;float: left;margin-top: 10px;margin-right: 10px;font-size: 20px;}
+	    span {color: blue;font-size: 150%;"}
+	</style>
 </head>
 <body>
-<h3 align="center">Формула h = V<sub><small>0</small></sub>t + gt<sup><small>2</small></sup>/2</h3>
-<h1>
+<h1 align="center">Формула h = V<sub><small>0</small></sub>t + gt<sup><small>2</small></sup>/2</h1>
+<div style="margin: 20px;">
+<p>результат :
+<span>
 <script type="text/javascript">
 	var h;
 	var V;
 	var t;
 	var g = 9.8;
-	V = +prompt ("Начальная скорость тела(м/c)", ' ');
-	align("V");
-	t = +prompt ("Время движения тела(в секундах)", ' ')
-	document.write( h=V*t + g*t*t/2 );
+	V = +prompt ("Начальная скорость тела :  (м/c)", ' ');
+	document.write ("V = " + V + ";  ")
+	alert(V);
+	t = +prompt ("Время движения тела :   (секунд)", ' ')
+	document.write("t = " + t + ";        ")
+	alert(t);
+	h = V*t + g*t*t/2;
+	document.write(" h =" + h);
 </script>
-</h1>
- <p>результат</p>
+</span> (метров) </p><br/>
+</div>
 </body> 
 </html>
