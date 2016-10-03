@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var N = 10;						         
+	var max, min, i, midlleArithm, sum = 0;                           
+    var arr = Array(N);
+	arr = [1,2,3,4,5,6,-39,-57,10, 100,11];
+
+	for(max = min = arr[0], i = 1; i < N; i++){
+        (arr[i] > max) ? max = arr[i] : min = arr[i];
+	}
+	 document.write("Максимум и минимум массива :");
+	 document.write("<br>" + "max = " + max + "<br>");
+	 document.write("min = " + min + "<br><br>");
+
+	 for(i = 0; i < N; i++){
+	 	sum = sum + arr[i];
+	 	var k = i+1;
+	 	document.write(k + ")" + "sum = " + sum + "<br>");
+	 }
+
+	    document.write("<br>" + "Среднее арифметическое : ") 
+	    document.write("<br>");  
+	 	midlleArithm = sum / N;
+	 	document.write("midlleArithm = " + midlleArithm + "<br>");
+
+        document.write( "<br>" + "Нечетные элементы массива :" + "<br>");
+	 	for(i = 0; i < N; i++){
+	 		if((arr[i] % 2) != 0) 
+	 		    document.write(arr[i] + "<br>"); 
+	 	}
+
+</script>
+</body>
+</html>                                                                                  

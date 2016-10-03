@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title> Сортировка массива </title>
+</head>
+<body>
+ <script type="text/javascript">
+ 	var i, j, N = 10, c;
+ 	var arr = new Array(N);
+ 	document.write("Исходный массив" + "<br>");
+ 	for(i = 0; i < arr.length; i++){
+ 		arr[i] = Math.floor(Math.random( ) * (-200+ 600 + 1))-200;
+ 	}
+
+ 	for(i = 0; i < arr.length; i++){
+ 		document.write(arr[i] + " ");
+ 	}
+document.write("<br>" + "Сортированный массив"+ "<br>");
+
+    for(i = 0; i < arr.length -1; i++){
+    	for(j = i + 1; j < arr.length; j++){
+           if(arr[i] > arr[j]){
+           	 c =arr[i];
+           	arr[i] = arr[j];
+           	arr[j] =c;
+
+           }
+    	}
+    }
+
+    for(i = 0; i < arr.length; i++)
+    	document.write(arr[i] + " ");
+    document.write("<br>");
+
+
+
+ 	
+ </script>
+</body>
+</html> 
